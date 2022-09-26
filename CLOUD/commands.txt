@@ -1,0 +1,52 @@
+LINUX COMMANDS 
+
+-> clear --> clear screen
+-> sudo su --> change privileage to root
+-> whoami --> check current user
+-> sudo apt update --> update to current version
+-> sudo apt install apache2 --> to install apache webserver on this server
+-> sudo systemctl status apache2 --> check apache is running or not.
+-> cd/var/www/html -> to go to  paht of index.html
+-> ls -> to check the list of files.
+-> cat index.html -> to view code in the index.html
+-
+sudo yum update httpd
+
+sudo yum install http
+
+sudo systemctl start httpd
+
+sudo systemctl status httpd
+
+
+AWS --> run in terminal
+sudo su
+sudo yum update
+sudo yum install httpd
+ ec2 -user
+
+44.204.162.183
+
+sudo systemctl start httpd
+
+sudo systemctl status httpd
+
+
+STEPS
+->cd/var/www/html
+-> nano index.html
+
+-> copy paste html code [
+
+<html><body><h1> <font color="blue"> <center>Welcome to Microsoft Azure Fundamentals Training  Tiger Analytics</font></h1></body></html>
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+
+
+]
+
+-> after paste crtl x and y then enter
+-> refresh the url in the browser.

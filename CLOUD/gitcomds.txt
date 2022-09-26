@@ -1,0 +1,28 @@
+GIT
+
+-> Introduce youself to git
+
+-> git config --global user.name "developer1"
+
+-> for email
+-> git config --global user.email "developer1@hotmail.com
+
+-> to see list of users
+ -> git config --list
+-> git add filename
+-> cat >new file -> to create a new file
+-> git rm file name -> to delete a file
+-> git status -> to check the status of the file
+
+
+ cd ~
+
+         mkdir demo
+
+         cd demo/
+
+         git init
+
+        git clone  url
+
+        git remote add  origin  ur

@@ -1,0 +1,80 @@
+Developer 
+
+              develop code  --               has to tested-- testing team
+                 
+                                   isssue-
+                                            code is not working
+                             Reason
+                                      1- dependecny reason
+                                                        video game-Pubg
+                                                        1- download the pubg
+                                                        2-  install 
+                                                        3- installtion at last it failed
+                                      2- see the details-
+                                                             dll file is missing 
+                                                             java update
+                                                             .net 
+                                                              windows comaptibility- os
+
+                                      3-De
+
+
+
+now we have share os ,app
+                 now we can run application
+                    it was possibele --template ,image-
+
+                    image - is just like machine
+ 
+                   now your total problem is solved--
+
+                 
+                      Why docker then ?
+
+                 DOCKER- IS a advance version of virtualization
+                           job of docker is to do containerization
+
+
+                what is the problem with virtualization ?
+
+                          above three probles
+                             1- cant create unlimited vms
+                             2- sepearte os means licensing cost
+                             3- wastage of resources
+
+                      this problesm is solved by docker
+
+
+
+
+                        downlaoding pubg on container--  all depenedcey from dockerhub.com
+                               resources from host computer
+
+                         in order to run ubuntu to run conatiner
+
+                                                  docker run ubuntu
+
+
+
+DOCKER COMMANDS
+
+-> yum install docker -y
+-> service docker status
+-> service docker start
+-> docker images
+-> docker ps      -> tells only num of running containers
+-> docker ps -a 	-> tells about all the containers
+-> docker --run   -> to run the docker
+
+->  steps to create docker container
+
+	-> we can create a container from docker image & then we can run the command docker--run. with some special specification.
+	
+	-> ways to get a docker image
+		-> dockerhub.com
+		-> docker file 
+		-> docker pull - to pull image
+
+	-> docker pull httpd
+	
+	> docker run -d --name tomcat-conatiner -p 8081:8080 tomcat
